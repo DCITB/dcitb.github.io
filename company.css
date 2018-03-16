@@ -1,0 +1,176 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: #b1a2ef;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    color: #14006d;
+
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    background-color: #b1a2ef;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    color: #14006d;
+}
+h3 {
+    text-align: center;
+    font-size: 100px;
+    background-color: #b1a2ef;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    color: #14006d;
+
+}
+body {
+  background: linear-gradient(-90deg, lightgrey, purple);
+}
+.loading {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background-color: purple;
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-iteration-count: 2.15;
+    border-radius: 100px;
+
+
+
+}
+
+@keyframes loading {
+    0%   {background-color: white; left:0%; opacity: 0.9;}
+    50%  {background-color: purple; left:95%;opacity: 0.9;}
+    100% {background-color: white; left:0%;opacity: 0.9;}
+}
+.loading2 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background-color: purple;
+    animation-name: loadingtwo;
+    animation-duration: 4s;
+    animation-iteration-count: 2.15;
+    animation-delay: 0.1s;
+    border-radius: 100px;
+
+
+
+}
+
+@keyframes loadingtwo {
+    0%   {background-color: white; left:0%; opacity: 0.9;}
+    50%  {background-color: purple; left:95%;opacity: 0.9;}
+    100% {background-color: white; left:0%;opacity: 0.9;}
+}
+.loading3 {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    background-color: purple;
+    animation-name: loadingthree;
+    animation-duration: 4s;
+    animation-iteration-count: 2.15;
+    animation-delay: 0.2s;
+    border-radius: 100px;
+
+
+
+}
+
+@keyframes loadingthree {
+    0%   {background-color: white; left:0%; opacity: 0.9;}
+    50%  {background-color: purple; left:95%;opacity: 0.9;}
+    100% {background-color: white; left:0%;opacity: 0.9;}
+}
+
+.text {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 8.6s;
+
+}
+.text1 {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 10.6s;
+
+}
+.text2 {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 11.6s;
+
+}
+.text3 {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 12.0s;
+
+}
+.text4 {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 12.5s;
+
+}
+.text5 {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 13.0s;
+
+}
+.text6 {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 13.5s;
+}
+
+.text7 {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 14.0s;
+
+}
+.text8 {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 14.5s;
+
+}
+.text9 {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 15.0s;
+
+}
+.text19 {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 15.5s;
+
+}
+.text10 {
+    opacity: 0; 
+    animation: apear 100000s normal forwards step-end;
+    animation-delay: 17.0s;
+
+}
+
+
+
+
+
+
+@keyframes apear {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+

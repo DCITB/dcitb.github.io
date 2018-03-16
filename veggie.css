@@ -1,0 +1,408 @@
+body {
+	background: url('assets/background.png');
+ 	background-repeat: repeat-y;
+ 	background-size: cover;
+	background-position: center center; The following was copyed from the google because the background image wasn't working 
+	webkit-background-size: cover;
+	
+	background-size: cover;
+	height: 100vh;
+
+
+}
+a:link, a:visited {
+    color: #283747;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration-color: "Black";
+    border-radius: 3px;
+    font-size: 25px;
+    background-color: #f9cb9c;
+
+
+
+}
+
+
+a:hover, a:active {
+
+    border-radius: 15px;
+    opacity: 0.5;
+    background-color: #f9cb9c;
+
+     transition-duration: 0.5s;
+
+
+
+
+}
+  
+.ordercart {
+  height: 1200px;
+  width: 150px;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+
+
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: #f9cb9c;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+img {
+    opacity: 0.9;
+    border-radius: 8px;
+
+
+}
+.img1/*Logo*/ {
+    width: 120px;
+}
+.img2/*home veggies image */ {
+  width: 845px;
+}
+.img3 /*Cart images*/ {
+  width: 140px;
+}
+
+.img4/*Order1*/ {
+    width: 300px;
+}
+.img5/*Conttent images*/ {
+    width: 335px;
+    margin: 0px 10px 5px;
+
+}
+.img6/*Conttent images*/ {
+    width: 345px;
+    height: 280px;
+    margin: -10px 10px 5px;
+
+}
+.img7/*Conttent images*/ {
+    width: 340px;
+    height: 280px;
+    margin: -10px 10px 5px;
+
+}
+.img8{
+  width: 340px;
+  height: 480px;
+  margin: -10px 10px 5px;
+}
+.img9{
+  width: 380px;
+  height: 380px;
+  margin: -10px 10px 5px;
+}
+.img10{
+  width: 580px;
+  height: 380px;
+  margin: -10px 10px 5px;
+}
+.img12{
+  width: 780px;
+  height: 380px;
+  margin:10px 80px 5px;
+}
+.aboutus {
+  height: 350px;
+  width: 950px;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+ }
+ .about2 {
+  height: 900px;
+  width: 950px;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+ }
+  .gardenbox {
+  height: 2300px;
+  width: 950px;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+
+ }
+   .involvebox {
+  height: 2100px;
+  width: 950px;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+
+ }
+ .intext {
+  margin: 35px 70px 50px 90px;
+ }
+
+
+
+
+
+
+
+
+.hometext {
+  height: 525px;
+  width: 950px;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+ }
+ .hometext1 {
+  height: 2400px;
+  width: 950px;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+  padding: 5px 10px;
+
+}
+
+ h2 {
+	font-size:15;
+	vertical-align: center;
+	font-family: Verdana, Geneva, sans-serif;	
+
+ }
+ p{
+ 	font-size: 25px;
+ 	margin: 3%;
+ }
+ .testa {
+	  height: 240px;
+	  width: 470px;
+	  background-color: #f9cb9c;
+	  border-radius: 15px;
+	  padding: 5px;
+ }
+
+
+ 
+ h3 {
+ 	font-size: 25px;
+ }						
+
+
+}
+h3 {
+    font-family: "Courier New", Courier, monospace;
+
+    text-align: center;
+    font-size: 30px;
+    background-color: #f9cb9c;
+    border-radius: 6px;
+}
+    h5 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    background-color: #f9cb9c;
+    border-radius: 40px;
+   	}
+.productsrec1 {
+	  height: 250px;
+	  width: 225px;
+	  background-color: #f9cb9c;
+	  border-radius: 15px;
+	  padding: 5px;
+	  text-align: center;
+}
+
+.servicesrec1 {
+    height: 250px;
+    width: 310px;
+    background-color: #f9cb9c;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.deff {
+
+  width: 950px ;
+  height: 150px ;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+  margin: 7px;
+
+}
+.fp {
+  width: 950px ;
+  height: 300px ;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+  margin: 7px;
+}
+
+input[type=text] {
+   
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: black;
+    background-color: #f9cb9c;
+
+}
+
+input[type=text]:focus {
+    width: 100%;
+    border: 3px solid #555;
+    transition: 1s 
+
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    border-color: white;
+}
+
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: black;
+    background-color: #f9cb9c;
+    transition: width 2s ease-in-out;
+    background-size: 40;
+}
+h4 {
+  font-size: 50px;
+
+}
+
+
+
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#f9cb9c; 
+    border-radius: 15px; 
+    font-size: 50px;
+    transition: ease 1s;
+
+}
+
+input[type=submit]:hover {
+    border-radius: 35px; 
+    transition: ease 1s;
+
+
+}
+input[type=radio] {
+    padding:5px 15px; 
+    background:#f9cb9c; 
+    border-radius: 15px; 
+    font-size: 50px;
+}
+
+ul {
+  font-size: 35px;
+}
+.ralliestext {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+.thankstext {
+  margin-left: 325px;
+}
+.cookingtext {
+  margin-left: 225px;
+}
+.abouttext {
+  
+  margin-right: 50%;
+  margin-left: 50%;
+}
+.gmap {
+
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.gettext {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.cookingtext {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 30px;
+}
+.cookingblog {
+  width: 950px ;
+  height: 1800px ;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+  margin: 7px;
+
+}
+.gardeningblog {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 30px;
+}
+.nml {
+  margin-right: 150px;
+  margin-left: 30px;
+}
+.getinvolvedbase {
+  width: 950px ;
+  height: 2000px ;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+  margin: 7px;
+
+}
+
+.thanks {
+  width: 950px ;
+  height: 200px ;
+  background-color: #f9cb9c;
+  border-radius: 15px;
+  margin: 7px;
+
+}
+.h6{
+  font-size: 25;
+}
+
+.no {
+    width: 150px;
+    height: 45px;
+    position: relative;
+    animation-name: nout;
+    animation-duration:4s;
+    border-radius: 15px;
+    animation-iteration-count: infinite;
+
+
+
+
+}
+@keyframes nout {
+    0%   {background-color:lightgreen}
+    25%  {background-color:lightblue}
+    50%  {background-color:lightgreen}
+    75%  {background-color:lightblue}
+    100% {background-color:lightgreen}
+}
+
+
+
