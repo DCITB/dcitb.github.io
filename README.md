@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# Super Simple Chat Demo
 
-You can use the [editor on GitHub](https://github.com/DCITB/dcitb.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a simple chat room demo in JavaScript to be converted into a native app using [PhoneGap][pg].
 
-### Markdown
+![image](http://www.pubnub.com/blog/wp-content/uploads/2014/10/phonegap.jpg)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Live Demo](http://pubnub.github.io/super-simple-chat/index.html)
 
-```markdown
-Syntax highlighted code block
+## PhoneGap Tutorials
 
-# Header 1
-## Header 2
-### Header 3
+These tutorials walk through how to convert this JavaScript chat app using [PubNub][pubnub] data stream JavaScript API, into a native app using [PhoneGap][pg].
 
-- Bulleted
-- List
+- [Converting Your JavaScript App to an Android App w/ PhoneGap](http://www.pubnub.com/blog/how-to-convert-your-javascript-app-into-an-android-app-with-phonegap/)
+- [Converting Your JavaScript App to an iOS App w/ PhoneGap](http://www.pubnub.com/blog/converting-your-javascript-app-to-an-ios-app-w-phonegap/) 
 
-1. Numbered
-2. List
+[pg]: http://phonegap.com
+[pubnub]: http://www.pubnub.com/docs/javascript/javascript-sdk.html
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DCITB/dcitb.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
